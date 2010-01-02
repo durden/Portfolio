@@ -1,0 +1,406 @@
+/*------------------------------------------------------
+Author: Charles (Luke) Lee
+Copyright: Charles (Luke) Lee
+Contact:
+Version: 9/5/06
+-------------------------------------------------------*/
+
+/* -------------PAGE STRUCTURE (ID'S) ------------------------*/
+body {
+	margin:  0px;
+	padding:  0px;
+	color: #000000;
+	font-size: 10pt;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	background-color: #FFFFFF;
+	text-align: center;
+}
+
+#header {
+	background-color: #333333;
+	width: 100%;
+	height: 136px;
+	text-align: center;
+}
+
+
+#shadow {
+	width: 100%;
+	height: 23px;
+	text-align: center;
+	background-image: url(img/shadow.jpg);
+	background-repeat: repeat-x;
+}
+
+#container {
+	padding: 0px 0px 0px 0px;
+	width: 790px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+body#blog #content, body#contact #content, body#work #content, body#work_detail #content, body#admin #content{
+	width: 780px;
+	text-align: left;
+	margin: 0px 0px 20px 0px;
+	padding: 0px 10px 0px 0px;
+}
+
+body#about #content, body#home #content {
+	float:left;
+	width: 500px;
+	text-align: left;
+	margin: 0px 0px 20px 0px;
+	padding: 0px 10px 0px 0px;
+}
+
+
+#sidebar {
+	float:left;
+	width: 250px;
+	height: 350px;
+	text-align: left;
+	border-left: 1px dashed #000000;
+	margin: 0px 0px 10px 0px;
+	padding: 0px 10px 20px 10px;
+}
+
+#sidebar img {
+	margin: 0px 0px 0px 0px;
+	border: 1px solid #333333;
+}
+
+p#copyright a, p#copyright a:link, p#copyright a:visited, p#copyright a:hover {
+	border-bottom: 1px dotted #FFFFFF;
+	margin: 15px 40px 0px 0px;
+}
+
+p#copyright {
+	text-align: center;
+	clear: left;
+	padding-top: 30px;
+}
+
+#footer li {
+	margin: 7px 0px 0px 10px;
+	padding: 0px 0px 0px 30px;
+	background: url(/img/footer_arrow.jpg) no-repeat 0 50%;
+	font-size: 10pt;
+}
+
+#footer #diigo, #footer #google {
+	float: left;
+}
+
+#footer #google h3 {
+	color: #CCCCCC;
+	background-image: none;
+	font-size: 10pt;
+	margin-bottom: 20px;
+	height: 10px;
+}
+
+#footer div.f {
+	margin: 10px 0px 0px 50px;
+}
+
+#footer li a, #footer li a:link, #footer li a:visited, #footer li a:hover {
+	border-bottom: 1px dotted #FFFFFF;
+}
+
+#footer a {
+	color: #CCCCCC;
+}
+
+#footer {
+	clear: both;
+	border-top: 1px solid #3366FF;
+	border-bottom: 1px solid #3366FF;
+	padding: 5px 0px 0px 15px;
+	font-size: 8pt;
+	background-color: #333333;
+	margin: 20px 0px 0px 0px;
+	text-align: left;
+	color: #FFFFFF;
+}
+
+#footer img {
+	margin: 15px 15px 0px 0px;
+}
+
+#topNav {
+	margin: 25px auto 0px auto;	
+	background-image: url(img/nav_bar.jpg);
+	background-repeat: no-repeat;
+	background-position: 5px 0px;
+	width: 419px;
+	height: 49px;
+	font-size: 14pt;
+	color: #FFFFFF;
+	padding-top: 12px;
+}
+
+/* ------------- END PAGE STRUCTURE ------------------------*/
+
+/* ----------------------- LINKS ------------------------*/	
+
+#topNav A:active,#topNav A:link,#topNav A:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+	border-bottom: 0;
+}
+
+#topNav A:hover {
+	text-decoration: underline;
+	border-bottom: 0;
+}
+
+A:active.imgLink {border-bottom: 0; }
+A:link.imgLink {border-bottom: 0; }
+A:visited.imgLink {border-bottom: 0; }
+A:hover.imgLink {border-bottom: 0; }
+
+.proj_desc A:active {border-bottom: 0; }
+.proj_desc A:link {border-bottom: 0; }
+.proj_desc A:visited {border-bottom: 0; }
+.proj_desc A:hover {border-bottom: 0; }
+
+
+#footer A:active,#footer A:link,#footer A:visited, #footer A:hover {
+	border-bottom: 0;
+}
+A:active,A:link,A:visited {
+	color: #0033FF;
+	text-decoration: none;
+	border-bottom: 1px dotted #1E1E1E;
+}
+
+A:hover {
+	text-decoration: none;
+	border-bottom: 1px solid #1E1E1E;
+}
+
+/* ----------------------- END LINKS ------------------------*/	
+
+/* ----------------------- BLOG STYLES ----------------------*/
+
+div.blog {
+	margin: 0px 0px 20px 0px;
+}
+
+.blog h2 {
+	font-size: 14pt;
+	color: #3366FF;
+	padding: 0px 0px 3px 0px;
+	border-bottom: 2px solid #C0C0C0;
+	width: 50%;
+}
+
+.blog p {
+	margin: 5px 10px 15px 10px;
+}	
+
+p.blogInfo {
+	font-size: 8pt;
+	color: #880000;
+	border-bottom: 1px solid #333333;
+	padding: 0px 0px 2px 2px;
+	margin: 0px 0px 0px -2px;
+}
+
+p.updated {
+	font-size: 8pt;
+	color: #880000;
+	border-bottom: 1px solid #333333;
+	padding: 0px 0px 2px 2px;
+	margin: 15px 0px 0px 0px;
+}
+
+
+/* ----------------------- END BLOG STYLES ------------------*/
+
+/* ----------------------- HTML OVERRIDES -------------------*/	
+img {
+	border: 0;
+}
+
+H3 {
+	background-image: url(img/short_header.jpg);
+	width: 130px;
+	height: 40px;
+	background-repeat: no-repeat;
+	font-size: 13pt;
+	padding-top: 9px;
+	padding-left: 25px;
+	margin-top: 0px;
+}
+
+H3.long {
+	background-image: url(img/long_header.jpg);
+	width: 205px;
+	height: 44px;
+	background-repeat: no-repeat;
+	font-size: 13pt;
+	margin-top: 0px;
+	padding-top: 13px;
+	padding-left: 30px;
+}
+
+H4 {
+	font-size: 12pt;
+	color: #3f3f3f;
+	padding-left: 5px;
+}
+
+H5 {
+	font-size: 11pt;
+	color: #3f3f3f;
+}
+
+blockquote {
+	background-color: #FFFFAA;
+	border-left: 2px solid #333333;
+	margin: 15px 15px 15px 30px;
+	padding: 10px 10px 10px 10px;
+	width: 70%;
+}
+
+/* ----------------------- END HTML OVERRIDES -------------------*/	
+
+/* ----------------------- MISC. CLASSES ------------------------*/	
+
+.update {
+	background-color: #FFFFAA;
+	border: 1px solid #DD0000;
+	width: 100%;
+	padding: 5px 5px 5px 5px;
+	margin: 0px 0px 15px 0px;
+}
+
+.errMsg {
+	background-color: #FFFFFF;
+	border: 1px solid #DD0000;
+	width: 100%;
+	font-size: 12pt;
+	color: #FF0000;
+	font-weight: bold;
+	text-align: center;
+	padding: 5px 5px 5px 5px;
+	margin: 0px 0px 15px 0px;
+}
+
+.successMsg {
+	background-color: #FFFFFF;
+	border: 1px solid #0000DD;
+	width: 100%;
+	color: #009900;
+	text-align: center;
+	font-weight: bold;	
+	font-size: 12pt;
+	padding: 5px 5px 5px 5px;
+	margin: 0px 0px 15px 0px;
+}
+
+.proj_desc td {
+	margin: 15px 0px 0px 10px;
+	border-bottom: 1px dotted #333333;
+	font-size: 11pt;
+}
+td.noBorder {
+	border: 0px solid #FFFFFF;
+}
+
+.full_desc img {
+	margin: 0px 15px 0px 0px;
+	border: 1px solid #333333;
+}
+
+.proj_desc img {
+	margin: 10px 15px 10px 10px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0px 0px 0px 10px;
+	padding: 0px;
+}
+
+ul li {
+	margin: 7px 0px 0px 0px;
+	padding: 0px 0px 0px 30px;
+	background: url(/img/arrow.gif) no-repeat 0 50%;
+}
+/* ----------------------- END MISC. CLASSES ------------------------*/	
+
+/* ----------------------- FORMS ------------------------------------*/	
+
+form fieldset {
+	margin: 0px;
+	padding: 10px 10px 10px 10px;
+	border: 1px solid #333333;
+	width: 450px;
+	font-size: 12pt;
+}
+
+form fieldset.blog {
+	margin: 0px;
+	padding: 10px 10px 10px 10px;
+	border: 1px solid #333333;
+	width: 650px;
+}
+
+form fieldset.work {
+	margin: 0px;
+	padding: 10px 10px 10px 10px;
+	border: 1px solid #333333;
+	width: 650px;
+}
+
+form fieldset ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+form fieldset li {
+	margin: 7px 0px 0px 0px;
+	padding: 0px;
+	list-style-type: none;
+	background-image: none;
+}
+
+form fieldset input {
+	width: 150px;
+	background-color: #FFFFAA;
+	border: 1px solid #5E5EFF;
+	margin: 0px 0px 0px 10px;
+	height: 25px;
+	font-size: 15pt;
+}
+
+form fieldset input.button {
+	width: 100px;
+	background-color: #4F4F4F;
+	border: 1px solid #000000;
+	margin: 0px 0px 0px 0px;
+	color: #FFFFFF;
+}
+
+form fieldset label {
+	width: 50px;
+}
+
+
+form fieldset textarea {
+	background-color: #FFFFAA;
+	border: 1px solid #5E5EFF;
+	font-size: 13pt;
+}
+
+/* ----------------------- END FORMS -------------------------------*/	
+

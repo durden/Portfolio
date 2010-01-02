@@ -1,0 +1,6 @@
+AuthUserFile /home/durden/webapps/portfolio/publish/.htpasswd
+AuthName "Password Protected"
+AuthType basic
+require valid-user
+DirectoryIndex home.php
+Options -Indexes
