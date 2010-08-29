@@ -28,8 +28,8 @@
 <body id="<?php echo $pageName ?>">
 
 <div id="header">
-	<img src="/img/name_banner.jpg" height="136" width="154" style="position: absolute; left: 0px; top:0px;" title="Charles (Luke) Lee" alt="Charles (Luke) Lee" />
-	<img src="/img/logo1.jpg" height="127" width="176"style="float: right;" title="Create. Refine. Repeat" alt="Create. Refine. Repeat."/><br />
+	<img src="/img/name_banner.jpg" height="136" width="154" style="position: absolute; left: 0px; top:0px;" title="Charles (Luke) Lee" alt="Charles (Luke) Lee">
+	<img src="/img/logo1.jpg" height="127" width="176"style="float: right;" title="Create. Refine. Repeat" alt="Create. Refine. Repeat."><br>
 	<div id="topNav">
 		<a href="/home.php">Home</a> | 
 		<a href="/about.php">About</a> | 
