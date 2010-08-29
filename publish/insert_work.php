@@ -17,7 +17,7 @@
 	if($id != "")
 	{
 		$sql = "SELECT feature_name, thumbnail_name,thumbnail_width,thumbnail_height,
-				big_img_name,big_img_width,big_img_height,intro_text,full_text,web_address
+				big_img_name,big_img_width,big_img_height,intro_text,full_text,web_address,personal
 				FROM featured_work
 				WHERE feature_id = '$id'";
 		
@@ -35,6 +35,9 @@
 			$intro = $row[7];
 			$full_text = $row[8];
 			$web = $row[9];
+			$personal = "";
+			if ($row[10] == 1)
+				$personal = "checked";
 		}//if	
 	}//if 
 ?>
@@ -80,6 +83,10 @@
 			<tr>
 				<td><label for="web">Web Address:</label></td>
 				<td colspan="3"><input style="width: 300px;" name="web" value="<?php echo $web?>" maxlength="200" /></td>
+			</tr>
+			<tr>
+				<td><label for="personal">Personal:</label></td>
+				<td colspan="3"><input type="checkbox" value="1" name="personal" <?php echo $personal?> /></td>
 			</tr>
 			<tr>
 				<td colspan="4"><input type="submit" value="Insert" class="button" /></td>

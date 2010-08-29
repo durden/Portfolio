@@ -11,6 +11,7 @@
 	$intro = $_POST['intro'];
 	$full_text = $_POST['full'];
 	$web = $_POST['web'];
+	$personal = $_POST['personal'] == 1 ? 1 : 0;
 	$id = $_POST['id'];	
 	// FIXME: Doesn't work on webfaction b/c it's already escaped :|
 	//$full_text = str_replace("'","\'",$full_text);
@@ -19,9 +20,9 @@
 	{
 		$sql = "INSERT INTO featured_work 
 				(feature_name,web_address,thumbnail_name,thumbnail_width,thumbnail_height,big_img_name,
-				big_img_width,big_img_height,intro_text,full_text)
+				big_img_width,big_img_height,intro_text,full_text,personal)
 				VALUES('$name','$web','$thumb_name','$thumb_width','$thumb_height','$big_name',
-				'$big_width','$big_height','$intro','$full_text')";
+				'$big_width','$big_height','$intro','$full_text','$personal')";
 	}
 	else
 	{
@@ -29,7 +30,8 @@
 				SET feature_name = '$name',web_address = '$web',thumbnail_name = '$thumb_name',
 				thumbnail_width = '$thumb_width',thumbnail_height = '$thumb_height',
 				big_img_name = '$big_name', big_img_width = '$big_width',
-				big_img_height = '$big_height',intro_text = '$intro',full_text = '$full_text'
+				big_img_height = '$big_height',intro_text = '$intro',full_text = '$full_text',
+				personal = '$personal'
 				WHERE feature_id = '$id'";
 	}
 	
