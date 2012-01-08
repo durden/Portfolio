@@ -10,12 +10,13 @@ body {
 	margin:  0px;
 	padding:  0px;
 	color: #000000;
-	font-size: 10pt;
-	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 15px;
+	font-family: Actor, Arial, Verdana, Helvetica, sans-serif;
 	font-weight: normal;
 	font-style: normal;
 	background-color: #FFFFFF;
 	text-align: center;
+    line-height: 1.2em;
 }
 
 #header {
@@ -36,7 +37,7 @@ body {
 
 #container {
 	padding: 0px 0px 0px 0px;
-	width: 790px;
+	width: 1000px;
 	text-align: center;
 	margin-right: auto;
 	margin-left: auto;
@@ -45,7 +46,7 @@ body {
 }
 
 body#blog #content, body#contact #content, body#work #content, body#work_detail #content, body#admin #content{
-	width: 780px;
+	width: 1000px;
 	text-align: left;
 	margin: 0px 0px 20px 0px;
 	padding: 0px 10px 0px 0px;
@@ -53,7 +54,7 @@ body#blog #content, body#contact #content, body#work #content, body#work_detail 
 
 body#about #content, body#home #content {
 	float:left;
-	width: 500px;
+	width: 710px;
 	text-align: left;
 	margin: 0px 0px 20px 0px;
 	padding: 0px 10px 0px 0px;
@@ -77,40 +78,12 @@ body#about #content, body#home #content {
 
 p#copyright a, p#copyright a:link, p#copyright a:visited, p#copyright a:hover {
 	border-bottom: 1px dotted #FFFFFF;
-	margin: 15px 40px 0px 0px;
+	margin: 15px 20px 0px 0px;
 }
 
 p#copyright {
 	text-align: center;
-	clear: left;
-	padding-top: 30px;
-}
-
-#footer li {
-	margin: 7px 0px 0px 10px;
-	padding: 0px 0px 0px 30px;
-	background: url(/img/footer_arrow.jpg) no-repeat 0 50%;
-	font-size: 10pt;
-}
-
-#footer #diigo, #footer #google {
-	float: left;
-}
-
-#footer #google h3 {
-	color: #CCCCCC;
-	background-image: none;
-	font-size: 10pt;
-	margin-bottom: 20px;
-	height: 10px;
-}
-
-#footer div.f {
-	margin: 10px 0px 0px 50px;
-}
-
-#footer li a, #footer li a:link, #footer li a:visited, #footer li a:hover {
-	border-bottom: 1px dotted #FFFFFF;
+	padding-top: 10px;
 }
 
 #footer a {
@@ -121,28 +94,18 @@ p#copyright {
 	clear: both;
 	border-top: 1px solid #3366FF;
 	border-bottom: 1px solid #3366FF;
-	padding: 5px 0px 0px 15px;
-	font-size: 8pt;
+	font-size: 12px;
 	background-color: #333333;
-	margin: 20px 0px 0px 0px;
 	text-align: left;
 	color: #FFFFFF;
 }
 
-#footer img {
-	margin: 15px 15px 0px 0px;
-}
-
 #topNav {
 	margin: 25px auto 0px auto;	
-	background-image: url(img/nav_bar.jpg);
-	background-repeat: no-repeat;
-	background-position: 5px 0px;
 	width: 419px;
-	height: 49px;
-	font-size: 14pt;
-	color: #FFFFFF;
-	padding-top: 12px;
+	font-size: 20px;
+	color: #f8f8f8;
+	padding-top: 15px;
 }
 
 /* ------------- END PAGE STRUCTURE ------------------------*/
@@ -153,11 +116,7 @@ p#copyright {
 	color: #FFFFFF;
 	text-decoration: none;
 	border-bottom: 0;
-}
-
-#topNav A:hover {
-	text-decoration: underline;
-	border-bottom: 0;
+    padding: 5px;
 }
 
 A:active.imgLink {border-bottom: 0; }
@@ -236,7 +195,7 @@ H3 {
 	background-repeat: no-repeat;
 	font-size: 13pt;
 	padding-top: 9px;
-	padding-left: 25px;
+	padding-left: 10px;
 	margin-top: 0px;
 }
 
@@ -247,8 +206,8 @@ H3.long {
 	background-repeat: no-repeat;
 	font-size: 13pt;
 	margin-top: 0px;
-	padding-top: 13px;
-	padding-left: 30px;
+	padding-top: 12px;
+	padding-left: 15px;
 }
 
 H4 {

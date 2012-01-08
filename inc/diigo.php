@@ -1,2 +1,0 @@
-			<script type="text/javascript" src="http://www.diigo.com/roll2/linkrolls?username=durden&amp;count=10&amp;style=customize&amp;icon=true&amp;l_type=0&amp;t_color=FFFFFF&amp;t_fam=Arial,sans-serif&amp;t_size=14&amp;t_bold=true&amp;t_italic=false&amp;t_underline=false&amp;i_fam=Arial,sans-serif&amp;i_color=CCCCCC&amp;i_size=12&amp;i_bold=false&amp;i_italic=false&amp;i_underline=false&amp;bg_color=333333&amp;bg_repeat=no-repeat&amp;title=My%20Diigo&amp;tags=&amp;bg_img="></script>
-	<noscript><p><a href="http://www.diigo.com/user/durden">My Diigo</a></p></noscript>

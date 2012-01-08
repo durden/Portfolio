@@ -7,15 +7,8 @@
 	
 </div> <!-- container -->
 	<div id="footer">
-	<div id="diigo" style="float: left;">
- 	  <?php require("inc/diigo.php"); ?>
-	</div>
-	<div id="google" style="float: left;">
- 	  <?php require("inc/google.php"); ?>
-	</div>
 	<p id="copyright" style="clear: left;">
-	 	This website is designed for Mozilla Firefox 1.0, Internet
-		Explorer 6, and Safari 1.3.  All rights reserved.  Copyright Luke Lee. <br>
+	 	All rights reserved.  Copyright Luke Lee. <br>
 			
 <a href="http://validator.w3.org/check?uri=http%3A%2F%2Fwww.lukelee.net/<?php echo $pageName ?>.php"> Valid HTML</a>
 
