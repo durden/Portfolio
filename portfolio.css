@@ -233,14 +233,6 @@ blockquote {
 
 /* ----------------------- MISC. CLASSES ------------------------*/	
 
-.update {
-	background-color: #FFFFAA;
-	border: 1px solid #DD0000;
-	width: 100%;
-	padding: 5px 5px 5px 5px;
-	margin: 0px 0px 15px 0px;
-}
-
 .errMsg {
 	background-color: #FFFFFF;
 	border: 1px solid #DD0000;

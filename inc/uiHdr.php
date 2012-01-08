@@ -41,35 +41,4 @@
 </div>
 <div id="shadow"></div>
 <div id="container">
-<?php
-	require('inc/dbHdr.php');
-	srand ((double) microtime( )*1000000);
-	$rand = rand(0,1);
-	
-	if($rand == 0)
-		$sql = 'select blog_id,title,date_added from blog_data order by date_added desc limit 1';
-	else
-		$sql = 'select feature_id,feature_name,last_updated from featured_work order by last_updated desc limit 1';
-		
-	$result = mysql_query($sql,$link);
-	
-	if($row = mysql_fetch_row($result))
-	{
-		list($date,$time) = split(' ',$row[2]);
-		list($yr,$month,$day) = split('-',$date);
-		$date = $month . '/' . $day . '/' . $yr;
-		switch($rand)
-		{
-			case 0:
-				$linkTxt = 'New blog <a href="blog.php">' . $row[1] . '</a> was added on ' . $date . ' !';
-				break;
-			default:
-				$linkTxt = 'New featured work <a href="work_detail.php?id=' . $row[0] . '">' . $row[1] . '</a> was added on ' . $date .  ' !';
-				break;
-		}//switch
-		echo '<div class="update"> Recent Updates:  ' . $linkTxt . '</div>';
-	}//if $result	
-	
-	require('inc/dbFtr.php');
-?>
 	<div id="content">
