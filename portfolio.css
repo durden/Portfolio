@@ -66,7 +66,7 @@ body#about #content, body#home #content {
 	width: 250px;
 	height: 350px;
 	text-align: left;
-	border-left: 1px dashed #000000;
+	border-left: 1px solid #000000;
 	margin: 0px 0px 10px 0px;
 	padding: 0px 10px 20px 10px;
 }
@@ -87,17 +87,15 @@ p#copyright {
 }
 
 #footer a {
-	color: #CCCCCC;
+	color: #888888;
+	text-decoration: underline;
 }
 
 #footer {
 	clear: both;
-	border-top: 1px solid #3366FF;
-	border-bottom: 1px solid #3366FF;
 	font-size: 12px;
-	background-color: #333333;
 	text-align: left;
-	color: #FFFFFF;
+	color: #000000;
 }
 
 #topNav {
@@ -130,9 +128,6 @@ A:hover.imgLink {border-bottom: 0; }
 .proj_desc A:hover {border-bottom: 0; }
 
 
-#footer A:active,#footer A:link,#footer A:visited, #footer A:hover {
-	border-bottom: 0;
-}
 A:active,A:link,A:visited {
 	color: #0033FF;
 	text-decoration: none;

@@ -5,12 +5,12 @@
 
 		<h3>Home</h3>
 		<p>
-			Hello, and welcome to my homepage.  I am currently a Software Engineer at 
-			<a href="http://www.texmemsys.com">Texas Memory Systems</a>.
+			Welcome to my homepage.  I am currently a Software Engineer at 
+			<a href="http://www.blueback-reservoir.com/">Blueback Reservoir</a>.
 		</p>
 		<p>
-			I was previously a Web Developer intern at 
-			<a href="http://www.ctsinet.com">CTSI</a> in Lubbock, TX for almost 4 years. 
+			I was previously a Software Engineer at <a href="http://www.ramsan.com">Texas Memory Systems</a> and
+			Web Developer intern at <a href="http://www.ctsinet.com">CTSI</a> in Lubbock, TX. 
 			This website is an outlet to showcase my web-related work.
 		</p>
 		<p>
@@ -28,9 +28,6 @@
 			<a href="/contact.php"> Contact me</a>.
 		</p>
 <?php 
-//	require('diigo.php');
 	require('featured_work.php');
 	require('inc/uiFtr.php');
 ?>
-	
-	
