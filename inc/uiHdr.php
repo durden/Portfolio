@@ -16,6 +16,7 @@
 <html>
 <head>
 	<link type="text/css" rel="stylesheet" href="/portfolio.css">
+    <link href='http://fonts.googleapis.com/css?family=Actor' rel='stylesheet' type='text/css'>
 	<title>Charles (Luke) Lee</title>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<script src="/inc/common.js" type="text/javascript"></script>
