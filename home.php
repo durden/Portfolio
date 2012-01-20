@@ -3,8 +3,8 @@
 	require('inc/dbHdr.php');
 ?>
     <p class="intro">
-        My name is <a href="#">Luke Lee</a>. I <a href="#">write</a> and
-        <a href="#">talk</a> about software.
+        My name is <a href="about.php">Luke Lee</a>. I <a href="work.php">write</a> and
+        <a href="work.php">talk</a> about software.
     </p>
     <ul class="posts">
         <?php
