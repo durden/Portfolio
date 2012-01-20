@@ -9,9 +9,9 @@
     <div id="container">
         <div id="header">
             <ul id="nav">
-                <li><a href="homepage2.html">Home</a> | </li>
-                <li><a href="about.html">About</a> | </li>
-                <li><a href="work.html">Work</a></li>
+                <li><a href="home.php">Home</a> | </li>
+                <li><a href="about.php">About</a> | </li>
+                <li><a href="work.php">Work</a></li>
             </ul>
         </div>
 
