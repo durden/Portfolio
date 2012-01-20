@@ -1,0 +1,86 @@
+body {
+    color: #444444;
+    font-size: 16px;
+    font-family: Actor, Arial, Verdana, Helvetica, sans-serif;
+    background-color: #ffffff;
+    line-height: 1.2em;
+    text-align: center;
+    background-image: url('img/background.png');
+    background-repeat: repeat;
+}
+
+#container {
+    margin: 0px auto;
+    padding: 0px;
+    width: 1000px;
+}
+
+#header {
+    height: 136px;
+    border-bottom: 1px solid #444444;
+    background-image: url('img/logo_grey.jpg');
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+ul#nav {
+    list-style-type: none;
+}
+
+#nav li {
+    font-size: 24px;
+    display: inline;
+}
+
+#content {
+    padding-bottom: 30px;
+}
+
+#footer {
+    border-top: 1px solid #444444;
+    font-size: 14px;
+    text-align: left;
+    clear: both;
+}
+
+#footer p.copyright {
+    float: left;
+}
+
+#footer p.validation {
+    float: right;
+}
+
+ul.posts {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    font-size: 25px;
+}
+
+p.intro {
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+ul.posts li {
+    line-height: 1.2em;
+}
+
+div.talks {
+    float: right;
+    margin-right: 50px;
+}
+
+.talks {
+    text-align: right;
+}
+
+div.creations {
+    float: left;
+    margin-left: 50px;
+}
+
+.creations {
+    text-align: left;
+}
