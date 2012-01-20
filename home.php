@@ -1,33 +1,30 @@
 <?php 
-	$sidebar = 1;
 	require('inc/uiHdr.php'); 
+	require('inc/dbHdr.php');
 ?>
+    <p class="intro">
+        My name is <a href="#">Luke Lee</a>. I <a href="#">write</a> and
+        <a href="#">talk</a> about software.
+    </p>
+    <ul class="posts">
+        <?php
+            $sql = "SELECT title, date_added
+                    FROM blog_data bd, web_users wb
+                    WHERE bd.created_by = wb.user_id
+                    ORDER BY date_added desc";
+            
+            $result = mysql_query($sql,$link);
+            while($row = mysql_fetch_row($result))
+            {
+                //$id = $row[0];
+                $title = $row[0];
+                $date = $row[2];
 
-		<h3>Home</h3>
-		<p>
-			Welcome to my homepage.  I am currently a Software Engineer at 
-			<a href="http://www.blueback-reservoir.com/">Blueback Reservoir</a>.
-		</p>
-		<p>
-			I was previously a Software Engineer at <a href="http://www.ramsan.com">Texas Memory Systems</a> and
-			Web Developer intern at <a href="http://www.ctsinet.com">CTSI</a> in Lubbock, TX. 
-			This website is an outlet to showcase my web-related work.
-		</p>
-		<p>
-			  I am very interested in clean, but still artistic and beautiful
-			  web design.  I am a firm believer in web standards, CSS, and semantic
-			  markup.  I worked hard to design this site around these principles, and
-			  I look forward to improving it in the future.
-		</p>
-		<p>
-			Please feel free to browse around and don't forget to take a look at my
-			<a href="/work.php"> work</a>.
-		</p>
-		<p>
-			If you have any comments, bug reports, resume request, etc. please 
-			<a href="/contact.php"> Contact me</a>.
-		</p>
+                echo '<li><a href="#">' . $title . '</a></li>';
+            }
+        ?>
+    </ul>
 <?php 
-	require('featured_work.php');
+	require('inc/dbFtr.php');
 	require('inc/uiFtr.php');
 ?>
