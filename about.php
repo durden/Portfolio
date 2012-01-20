@@ -1,5 +1,4 @@
 <?php 
-	$sidebar = 1;
 	require('inc/uiHdr.php'); 
 ?>
 
@@ -10,11 +9,14 @@
 	Mathematics from <a href="http://www.ttu.edu"> Texas Tech University</a> in 
 	May of 2007.
 </p>
+
 <p>
-	I am currently a Software Engineer at <a href="http://www.texmemsys.com">Texas Memory
-	Systems</a>.  I have been with the company since May 2007.  I am primarily responsible
-	for our web-based regression testing software as well as low-level device driver code.
+    I am currently a Software Engineer at <a href="http://www.texmemsys.com">Texas Memory Systems</a>.
+    I have been with the company since May 2007.  I am primarily responsible
+    for our web-based regression testing software as well as low-level device 
+    driver code.
 </p>
+
 <p>
 	Prior to working at TMS, I was employed at 
 	<a href="http://www.ctsinet.com">Computer Transition Services Inc.</a>
@@ -22,14 +24,14 @@
 	a Computer Technician with CTSI until around February of 2005.
 </p>
 <p>
-    As of February 2005, I became mainly focused on web development during my time at CTSI.  
-	I had the privilege of working with two other web developers during my 3 years of 
-	develoment with CTSI.  
+    As of February 2005, I became mainly focused on web development during my 
+    time at CTSI.  I had the privilege of working with two other web developers 
+    during my 3 years of develoment with CTSI.  
 </p>
 <p>
 	I learned a lot about programming in general as well as
-	many benefits of agile software development and teamwork.  I really enjoyed my
-	time at CTSI and still enjoy web development as one of my hobbies.
+    many benefits of agile software development and teamwork.  I really enjoyed 
+    my time at CTSI and still enjoy web development as one of my hobbies.
 </p>
 
 	The majority of my work at CTSI was developed using the following:
@@ -61,6 +63,5 @@
 </p>
 
 <?php 
-	require('thanks.php');
 	require('inc/uiFtr.php');
 ?>
