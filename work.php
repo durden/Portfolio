@@ -31,7 +31,14 @@
 			$id = $row[0];
 			$name = $row[1];
 			$intro = $row[2];
-            echo '<li><a href="work_detail.php?id=' . $id . '">' . $intro .'</a>.</li>';
+
+            $period = '';
+            if ($intro[strlen($intro)-1] != ".") {
+                $period = ".";
+            }
+
+            echo '<li><a href="work_detail.php?id=' . $id . '">' . $intro .
+                    '</a>' . $period . '</li>';
 		}//while
 	}//if $result
 	else

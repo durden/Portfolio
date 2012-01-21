@@ -84,3 +84,13 @@ div.creations {
 .creations {
     text-align: left;
 }
+
+
+div.about {
+    float: left;
+    margin-left: 50px;
+}
+
+.about {
+    text-align: left;
+}

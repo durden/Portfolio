@@ -8,7 +8,7 @@
     </p>
     <ul class="posts">
         <?php
-            $sql = "SELECT title, date_added
+            $sql = "SELECT blog_id, title, date_added
                     FROM blog_data bd, web_users wb
                     WHERE bd.created_by = wb.user_id
                     ORDER BY date_added desc";
@@ -16,11 +16,12 @@
             $result = mysql_query($sql,$link);
             while($row = mysql_fetch_row($result))
             {
-                //$id = $row[0];
-                $title = $row[0];
+                $id = $row[0];
+                $title = $row[1];
                 $date = $row[2];
 
-                echo '<li><a href="#">' . $title . '</a></li>';
+                echo '<li><a href="blog.php?id='. $id . '">' . $title .
+                    '</a></li>';
             }
         ?>
     </ul>
