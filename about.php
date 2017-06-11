@@ -4,7 +4,7 @@
 
 <div class="about">
     <p><span class="intro"> I <strong>work</strong></span>
-        as a Software Engineer at <a href="http://www.blueback-reservoir.com">Blueback Reservoir</a>.</p>
+        as a Software Engineer at <a href="http://www.perkolasoft.com">Perkolasoft LLC</a>.</p>
     <p> <span class="intro"> I <strong>graduated</strong></span>
             from <a href="http://www.ttu.edu"> Texas Tech University</a>
             with a degree in Computer Science.
