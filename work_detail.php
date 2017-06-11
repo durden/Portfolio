@@ -43,11 +43,6 @@
         echo '<div class="creations">';
         echo  $full_text;
 			
-        if($web != "") {
-            echo '<p>Visit the site:&nbsp&nbsp;<a href="' .  $web . '">' .
-                $name . '</a></p>';
-        }
-
     echo '<p>Last Updated on ' . $updated . '</p>'; 
     echo '</div>';
 
